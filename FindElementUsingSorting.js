@@ -1,6 +1,6 @@
 let NumArr = new Array();
 function ThreeDigitRandom() {
-    let temp = Math.floor((Math.random() * 1000) % 1000);
+    let temp = Math.floor((Math.random() * 900) + 100);
     if (temp < 100) {
         ThreeDigitRandom();
     }
@@ -48,4 +48,5 @@ for (let i = 0; i < NumArr.length; i++) {
 // Sorting array
 temp = 0;
 let SortedNumArr = NumArr.sort();
+console.log(SortedNumArr);
 console.log("second max " + SortedNumArr[(SortedNumArr.length - 2)] + " second min " + SortedNumArr[1]);
