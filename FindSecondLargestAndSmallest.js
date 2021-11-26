@@ -50,10 +50,10 @@ for (let i=0; i<NumArr.length ; i++){
     }
 }
 if (second == first){
-    console.log("There is no second largest element\n");
+    console.log("There is no second smallest element\n");
 }
 else{
-    console.log("The Second largest element in the array is: "+ second);
+    console.log("The Second smallest element in the array is: "+ second);
 }
-console.log("first min :"+first+" second max "+second);
+console.log("first min :"+first+" second min "+second);
 
